@@ -18,6 +18,7 @@
 		790E955D17BD6A4500650DA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 790E955C17BD6A4500650DA8 /* Default-568h@2x.png */; };
 		790E956017BD6A4500650DA8 /* GOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790E955F17BD6A4500650DA8 /* GOViewController.m */; };
 		790E956317BD6A4500650DA8 /* GOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790E956117BD6A4500650DA8 /* GOViewController.xib */; };
+		790E956C17BD6A8E00650DA8 /* UIColor+GOExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 790E956B17BD6A8E00650DA8 /* UIColor+GOExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		790E955E17BD6A4500650DA8 /* GOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOViewController.h; sourceTree = "<group>"; };
 		790E955F17BD6A4500650DA8 /* GOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOViewController.m; sourceTree = "<group>"; };
 		790E956217BD6A4500650DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GOViewController.xib; sourceTree = "<group>"; };
+		790E956A17BD6A8E00650DA8 /* UIColor+GOExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GOExtension.h"; sourceTree = "<group>"; };
+		790E956B17BD6A8E00650DA8 /* UIColor+GOExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GOExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		790E954C17BD6A4500650DA8 /* GOExtendedUIColor */ = {
 			isa = PBXGroup;
 			children = (
+				790E956917BD6A8E00650DA8 /* lib */,
 				790E955517BD6A4500650DA8 /* GOAppDelegate.h */,
 				790E955617BD6A4500650DA8 /* GOAppDelegate.m */,
 				790E955E17BD6A4500650DA8 /* GOViewController.h */,
@@ -105,6 +109,15 @@
 				790E955C17BD6A4500650DA8 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		790E956917BD6A8E00650DA8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				790E956A17BD6A8E00650DA8 /* UIColor+GOExtension.h */,
+				790E956B17BD6A8E00650DA8 /* UIColor+GOExtension.m */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				790E955317BD6A4500650DA8 /* main.m in Sources */,
 				790E955717BD6A4500650DA8 /* GOAppDelegate.m in Sources */,
 				790E956017BD6A4500650DA8 /* GOViewController.m in Sources */,
+				790E956C17BD6A8E00650DA8 /* UIColor+GOExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +313,7 @@
 				790E956817BD6A4500650DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

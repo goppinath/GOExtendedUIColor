@@ -8,6 +8,8 @@
 
 #import "GOViewController.h"
 
+#import "UIColor+GOExtension.h"
+
 @interface GOViewController ()
 
 @end
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    [testView setBackgroundColor:[UIColor oliveDrabColor]];
+    
+    [self.view addSubview:testView];
 }
 
 - (void)didReceiveMemoryWarning
