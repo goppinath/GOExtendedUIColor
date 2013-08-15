@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790E954717BD6A4500650DA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790E954617BD6A4500650DA8 /* UIKit.framework */; };
+		790E954917BD6A4500650DA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790E954817BD6A4500650DA8 /* Foundation.framework */; };
+		790E954B17BD6A4500650DA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790E954A17BD6A4500650DA8 /* CoreGraphics.framework */; };
+		790E955117BD6A4500650DA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 790E954F17BD6A4500650DA8 /* InfoPlist.strings */; };
+		790E955317BD6A4500650DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790E955217BD6A4500650DA8 /* main.m */; };
+		790E955717BD6A4500650DA8 /* GOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790E955617BD6A4500650DA8 /* GOAppDelegate.m */; };
+		790E955917BD6A4500650DA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 790E955817BD6A4500650DA8 /* Default.png */; };
+		790E955B17BD6A4500650DA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 790E955A17BD6A4500650DA8 /* Default@2x.png */; };
+		790E955D17BD6A4500650DA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 790E955C17BD6A4500650DA8 /* Default-568h@2x.png */; };
+		790E956017BD6A4500650DA8 /* GOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790E955F17BD6A4500650DA8 /* GOViewController.m */; };
+		790E956317BD6A4500650DA8 /* GOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790E956117BD6A4500650DA8 /* GOViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790E954317BD6A4500650DA8 /* GOExtendedUIColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOExtendedUIColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790E954617BD6A4500650DA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		790E954817BD6A4500650DA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		790E954A17BD6A4500650DA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		790E954E17BD6A4500650DA8 /* GOExtendedUIColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GOExtendedUIColor-Info.plist"; sourceTree = "<group>"; };
+		790E955017BD6A4500650DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		790E955217BD6A4500650DA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790E955417BD6A4500650DA8 /* GOExtendedUIColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GOExtendedUIColor-Prefix.pch"; sourceTree = "<group>"; };
+		790E955517BD6A4500650DA8 /* GOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOAppDelegate.h; sourceTree = "<group>"; };
+		790E955617BD6A4500650DA8 /* GOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOAppDelegate.m; sourceTree = "<group>"; };
+		790E955817BD6A4500650DA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		790E955A17BD6A4500650DA8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		790E955C17BD6A4500650DA8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		790E955E17BD6A4500650DA8 /* GOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOViewController.h; sourceTree = "<group>"; };
+		790E955F17BD6A4500650DA8 /* GOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOViewController.m; sourceTree = "<group>"; };
+		790E956217BD6A4500650DA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GOViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790E954017BD6A4500650DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790E954717BD6A4500650DA8 /* UIKit.framework in Frameworks */,
+				790E954917BD6A4500650DA8 /* Foundation.framework in Frameworks */,
+				790E954B17BD6A4500650DA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790E953A17BD6A4500650DA8 = {
+			isa = PBXGroup;
+			children = (
+				790E954C17BD6A4500650DA8 /* GOExtendedUIColor */,
+				790E954517BD6A4500650DA8 /* Frameworks */,
+				790E954417BD6A4500650DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790E954417BD6A4500650DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790E954317BD6A4500650DA8 /* GOExtendedUIColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790E954517BD6A4500650DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790E954617BD6A4500650DA8 /* UIKit.framework */,
+				790E954817BD6A4500650DA8 /* Foundation.framework */,
+				790E954A17BD6A4500650DA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790E954C17BD6A4500650DA8 /* GOExtendedUIColor */ = {
+			isa = PBXGroup;
+			children = (
+				790E955517BD6A4500650DA8 /* GOAppDelegate.h */,
+				790E955617BD6A4500650DA8 /* GOAppDelegate.m */,
+				790E955E17BD6A4500650DA8 /* GOViewController.h */,
+				790E955F17BD6A4500650DA8 /* GOViewController.m */,
+				790E956117BD6A4500650DA8 /* GOViewController.xib */,
+				790E954D17BD6A4500650DA8 /* Supporting Files */,
+			);
+			path = GOExtendedUIColor;
+			sourceTree = "<group>";
+		};
+		790E954D17BD6A4500650DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790E954E17BD6A4500650DA8 /* GOExtendedUIColor-Info.plist */,
+				790E954F17BD6A4500650DA8 /* InfoPlist.strings */,
+				790E955217BD6A4500650DA8 /* main.m */,
+				790E955417BD6A4500650DA8 /* GOExtendedUIColor-Prefix.pch */,
+				790E955817BD6A4500650DA8 /* Default.png */,
+				790E955A17BD6A4500650DA8 /* Default@2x.png */,
+				790E955C17BD6A4500650DA8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790E954217BD6A4500650DA8 /* GOExtendedUIColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790E956617BD6A4500650DA8 /* Build configuration list for PBXNativeTarget "GOExtendedUIColor" */;
+			buildPhases = (
+				790E953F17BD6A4500650DA8 /* Sources */,
+				790E954017BD6A4500650DA8 /* Frameworks */,
+				790E954117BD6A4500650DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOExtendedUIColor;
+			productName = GOExtendedUIColor;
+			productReference = 790E954317BD6A4500650DA8 /* GOExtendedUIColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790E953B17BD6A4500650DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Goppinath Thurairajah";
+			};
+			buildConfigurationList = 790E953E17BD6A4500650DA8 /* Build configuration list for PBXProject "GOExtendedUIColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 790E953A17BD6A4500650DA8;
+			productRefGroup = 790E954417BD6A4500650DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790E954217BD6A4500650DA8 /* GOExtendedUIColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790E954117BD6A4500650DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790E955117BD6A4500650DA8 /* InfoPlist.strings in Resources */,
+				790E955917BD6A4500650DA8 /* Default.png in Resources */,
+				790E955B17BD6A4500650DA8 /* Default@2x.png in Resources */,
+				790E955D17BD6A4500650DA8 /* Default-568h@2x.png in Resources */,
+				790E956317BD6A4500650DA8 /* GOViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790E953F17BD6A4500650DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790E955317BD6A4500650DA8 /* main.m in Sources */,
+				790E955717BD6A4500650DA8 /* GOAppDelegate.m in Sources */,
+				790E956017BD6A4500650DA8 /* GOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		790E954F17BD6A4500650DA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790E955017BD6A4500650DA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		790E956117BD6A4500650DA8 /* GOViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790E956217BD6A4500650DA8 /* en */,
+			);
+			name = GOViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790E956417BD6A4500650DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		790E956517BD6A4500650DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790E956717BD6A4500650DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GOExtendedUIColor/GOExtendedUIColor-Prefix.pch";
+				INFOPLIST_FILE = "GOExtendedUIColor/GOExtendedUIColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		790E956817BD6A4500650DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GOExtendedUIColor/GOExtendedUIColor-Prefix.pch";
+				INFOPLIST_FILE = "GOExtendedUIColor/GOExtendedUIColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790E953E17BD6A4500650DA8 /* Build configuration list for PBXProject "GOExtendedUIColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790E956417BD6A4500650DA8 /* Debug */,
+				790E956517BD6A4500650DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790E956617BD6A4500650DA8 /* Build configuration list for PBXNativeTarget "GOExtendedUIColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790E956717BD6A4500650DA8 /* Debug */,
+				790E956817BD6A4500650DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790E953B17BD6A4500650DA8 /* Project object */;
+}
