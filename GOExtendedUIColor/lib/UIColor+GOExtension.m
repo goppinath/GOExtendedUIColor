@@ -24,12 +24,12 @@
 #pragma mark -
 #pragma mark - custom initialisations
 
-+ (UIColor *)RGBcolorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha {
++ (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha {
     
     return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:alpha];
 }
 
-+ (UIColor *)RGBcolorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue {
++ (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue {
     
     return [UIColor colorWithRed:red/255.0 green:green/255.0 blue:blue/255.0 alpha:1.0];
 }
@@ -390,10 +390,10 @@
 //    return [UIColor colorWithHexString:@"#808080"];
 //}
 
-//+ (UIColor *)greenColor {
-//    
-//    return [UIColor colorWithHexString:@"#008000"];
-//}
++ (UIColor *)greenGOColor {
+    
+    return [UIColor colorWithHexString:@"#008000"];
+}
 
 + (UIColor *)greenYellowColor {
     

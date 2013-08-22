@@ -23,9 +23,9 @@
 
 //  custom initialisations
 
-+ (UIColor *)RGBcolorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
++ (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
 
-+ (UIColor *)RGBcolorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue;
++ (UIColor *)RGBColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue;
 
 + (UIColor *)colorWithHexString:(NSString *)hexColorString alpha:(CGFloat)alpha;
 
@@ -162,7 +162,7 @@
 
 //+ (UIColor *)grayColor;
 
-//+ (UIColor *)greenColor;
++ (UIColor *)greenGOColor;
 
 + (UIColor *)greenYellowColor;
 
