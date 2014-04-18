@@ -56,7 +56,7 @@
     
     CGColorRef thisColorRef = [self CGColor];
     
-    int numberOfComponents = CGColorGetNumberOfComponents(thisColorRef);
+    int numberOfComponents = (int)CGColorGetNumberOfComponents(thisColorRef);
     
     const CGFloat *components = NULL;
     

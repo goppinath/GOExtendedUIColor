@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0203ACD9-6F1D-47A3-90FF-4A9B9C9A0631</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GOExtendedUIColor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A631C3B-2F20-4785-9E2A-E4BB472FAD67</key>
+		<string>https://github.com/goppinath/GOExtendedUIColor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GOExtendedUIColor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A631C3B-2F20-4785-9E2A-E4BB472FAD67</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/goppinath/GOExtendedUIColor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A631C3B-2F20-4785-9E2A-E4BB472FAD67</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A631C3B-2F20-4785-9E2A-E4BB472FAD67</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GOExtendedUIColor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

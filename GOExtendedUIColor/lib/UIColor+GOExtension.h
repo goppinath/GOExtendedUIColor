@@ -19,6 +19,9 @@
 
 #import <UIKit/UIKit.h>
 
+#define RGBColor(r, g, b) [UIColor RGBColorWithRed:r green:g blue:b]
+#define HEXColor(s) [UIColor colorWithHexString:s]
+
 @interface UIColor (GOExtension)
 
 //  custom initialisations
@@ -30,8 +33,6 @@
 + (UIColor *)colorWithHexString:(NSString *)hexColorString alpha:(CGFloat)alpha;
 
 + (UIColor *)colorWithHexString:(NSString *)hexColorString;
-
-- (CGFloat)getComponentValueForIndex:(NSUInteger)index;
 
 //  get color components and values
 

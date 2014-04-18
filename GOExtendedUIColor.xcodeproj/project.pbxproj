@@ -275,6 +275,7 @@
 		790E956717BD6A4500650DA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GOExtendedUIColor/GOExtendedUIColor-Prefix.pch";
 				INFOPLIST_FILE = "GOExtendedUIColor/GOExtendedUIColor-Info.plist";
@@ -286,6 +287,7 @@
 		790E956817BD6A4500650DA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GOExtendedUIColor/GOExtendedUIColor-Prefix.pch";
 				INFOPLIST_FILE = "GOExtendedUIColor/GOExtendedUIColor-Info.plist";

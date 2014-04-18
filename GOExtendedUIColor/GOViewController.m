@@ -25,6 +25,8 @@
     
     [testView setBackgroundColor:[UIColor oliveDrabColor]];
     
+    [testView setBackgroundColor:RGBColor(100, 100, 100)];
+    
     [self.view addSubview:testView];
 }
 
